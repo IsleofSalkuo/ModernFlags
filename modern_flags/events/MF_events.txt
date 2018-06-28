@@ -1,0 +1,16 @@
+narrative_event = {
+    id = MFwelcome.0001
+	title = MFt.0001
+    desc = MFwelcomeDesc.0001
+	picture = GFX_MF_welcome
+	major = yes
+	is_triggered_only = yes
+	major_trigger = {
+    is_playable = yes
+	NOT = { has_global_flag= WelcomeEvent }
+	}
+    option = {
+       name = MFwelcome.0001A
+	   set_global_flag = WelcomeEvent
+    }
+  }

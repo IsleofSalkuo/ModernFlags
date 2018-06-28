@@ -1,0 +1,5 @@
+on_start = {
+  events = {
+    MFwelcome.0001
+  }
+}
